@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* element */
+body {
+    letter-spacing: 0px;
+    font-size: 14px;
+    overflow-x:hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: inline;
+}
+
+nav {
+    display: block;
+
+}
+
+
+/* ------------------------------------main navbar section-------------------------------------------- */
+/* classes */
+.bg-primary {
+    background-color: #2874f0;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.navbar {
+
+    min-width: 978px;
+    position: relative;
+    background-color: #2874f0;
+
+}
+
+.fixed {
+    position: fixed;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+center {
+    justify-content: center;
+}
+
+
+.plus-text {
+    font-size: 11px;
+    color: rgb(255, 192, 0);
+}
+
+
+.search-box {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+}
+
+
+.search-button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+
+.login-btn {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+
+
+
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+
+}
+
+.become-a-seller {
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.more {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    display: inline;
+
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.more-icon {
+    color: #dbdbdb;
+}
+
+.cart {
+    color: #dbdbdb;
+}
+
+.main-div {
+    width: 100%;
+}
+
+.outer-div-1,
+.outer-div-3 {
+    width: 10.5%;
+}
+
+
+.outer-div-2 {
+    width: 79%;
+    padding: 0px 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+}
+
+.main-nav-item {
+    display: block;
+}
+
+/* id */
+
+#explore {
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+}
+
+
+#main-nav {
+   
+    height: 55px;
+
+
+}
+
+#subnav {
+    width: -webkit-fill-available;
+}
+
+
+
+/* ------------------------------------sub navbar section-------------------------------------------- */
+
+/* classes */
+
+.menu-item {
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    height: 100%;
+    line-height: 1.4;
+    cursor: pointer;
+    font-size: 89%;
+}
+
+.menu-icon {
+    color: rgba(36, 34, 34, 0.879);
+}
+
+.page {
+    display: inline-block;
+}
+
+.product-image {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.sub-pic {
+    height: 54px;
+    width: 30px;
+}
+
+
+.sub-pic-3 {
+    height: 54px;
+    width: 5px;
+    margin-left: 7px;
+}
+
+.large-image {
+    width: 91%;
+    height: 100%;
+    box-shadow: 1px 1px rgba(158, 158, 158, 0.151), -1px 0.4px rgba(158, 158, 158, 0.151);
+}
+
+.main-pic {
+    height: 415px;
+    position: relative;
+    left: 93px;
+    z-index: -1;
+    margin: 6% 0%;
+
+}
+
+.notify-me {
+    background-color: #fb641b;
+    border: 1px solid #fb641b;
+    height: 45px;
+    width: 400px;
+
+    /* position: absolute;
+    right: 5%;
+    top: 104%; */
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+
+
+    overflow-x: auto;
+    text-align: center;
+    font-weight: 500;
+
+
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.right-aligned {
+    display: flex;
+    float: left;
+    font-size: 71%;
+    width: 367px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.left-aligned {
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: space-between;
+    width: 19%;
+    right: 7%;
+}
+
+.compare-share {
+    color: #212121;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ids */
+#menu {
+    box-shadow: 1px 1px #514e4e3b;
+    padding: 6px;
+}
+
+#main-sec {
+
+    width: 100%;
+    margin-top: 1%;
+}
+
+#left-sect {
+
+    width: 40%;
+    float: left;
+    position:sticky;
+    z-index: -1;
+}
+
+#right-sect {
+    position: relative;
+    width: 60%;
+    float: right;
+
+    z-index: -1;
+    box-shadow: 1px 1px rgba(158, 158, 158, 0.151), -1px 0.4px rgba(158, 158, 158, 0.151);
+    padding: 0px 1px;
+}
+
+#lefts-left {
+
+    width: 20%;
+    float: left;
+}
+
+#lefts-right {
+
+    width: 80%;
+    float: right;
+
+}
+
+#get_notified {
+    color: #878787;
+    width: 100%;
+    letter-spacing: 0px;
+    line-height: 1.4px;
+    padding: 7% 0%;
+    text-align: center;
+    justify-content: center;
+    font-size: 92%;
+}
+
+
+.notify-btn-text{
+    position: relative;
+    right: 7%
+}
+
+#inside{
+    padding-left: 7px;
+}
+
+/* right section of main page  */
+
+
+/* ..............................................main section of details ................................................. */
+.pkaaclass>p{
+    padding-top: 10px;
+}
+
+/* classes */
+.title {
+    line-height: 1.4;
+    font-size: 114%;
+    font-weight: 400;
+
+}
+
+.rating {
+    background-color: #388e3c;
+    color: #fff;
+    padding-left: 4px;
+    border-radius: 3px;
+    font-size: 84%;
+}
+
+.review {
+    color: #878787;
+    margin-left: 1%;
+    font-weight: 500;
+    font-size: 85%;
+}
+
+.description {
+    padding-top: 4%;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 178%;
+    padding-top: 3%;
+
+}
+
+.packaging-info {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+.offer-img {
+    height: 18px;
+    width: 18px;
+
+    position: relative;
+    top: 4px;
+    right: 5px;
+
+}
+
+.bank-offer {
+    color: #212121;
+    font-weight: 500;
+    padding-right: 1px;
+}
+
+.TandC {
+    font-size: 14px;
+    color: #2874f0;
+    font-weight: 500;
+    cursor: pointer;
+
+    padding-left: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* ids  */
+#Available {
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 2%;
+}
+
+#coming_soon {
+    font-size: 220%;
+}
+
+#t-one{
+    padding-left: 26px;
+}
+
+#apple-logo{
+    padding: 1px;
+    height: 20px;
+    width: 20px;
+    margin-top: 3%;
+    box-shadow: 1px 1px rgba(158, 158, 158, 0.179), -1px 0.4px rgba(158, 158, 158, 0.151);
+    position: relative;
+    bottom: 1%;
+}
+
+#one_year_text{
+    padding-left: 1px;
+}
+
+#one_year{
+    position: relative;
+    left: 3%;
+}
+
+.text-and-terms{
+position: relative;
+left:8%;
+}
